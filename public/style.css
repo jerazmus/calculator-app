@@ -9,6 +9,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: minmax(50px, auto);
     margin: auto;
+    margin-top: 140px;
     width: 400px;
 }
 
@@ -27,10 +28,6 @@ body {
     background-color: slategrey;
     color: white;
     text-align: center;
-}
-
-.plus {
-
 }
 
 .zero {

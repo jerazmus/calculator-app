@@ -9,3 +9,5 @@
 ### - NaN after giving only current value and clicking "equal" sign
 
 ### - using multiple 0s at the beginning of the number
+
+![Picture load failed.](./src/assets/preview.png)

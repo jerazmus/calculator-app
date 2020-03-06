@@ -1,24 +1,11 @@
 # calculator-app
 
-## Project setup
-```
-npm install
-```
+## Simple application made using Vue.js. This is my first Vue.js project, made after watching:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## -> Build a Calculator with Vue.js (https://www.youtube.com/watch?v=m1_ih43p24s)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## With my version of the application I fixed two bugs that existed in the original video:
 
-### Lints and fixes files
-```
-npm run lint
-```
+### - NaN after giving only current value and clicking "equal" sign
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### - using multiple 0s at the beginning of the number

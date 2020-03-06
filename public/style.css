@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#app {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    margin: auto;
+    width: 400px;
+}
+
+.btn {
+    border: 1px solid grey;
+    justify-content: center;
+    align-items: center;
+    background-color: dimgrey;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.result {
+    grid-column: 1/5;
+    background-color: slategrey;
+    color: white;
+    text-align: center;
+}
+
+.plus {
+
+}
+
+.zero {
+    grid-column: 1/3;
+}
+
+.top-method {
+    background-color: gainsboro;
+    color: black;
+}
+
+.right-method {
+    background-color: orange;
+}
